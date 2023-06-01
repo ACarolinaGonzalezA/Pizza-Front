@@ -1,13 +1,119 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-header{
+*{
+    font-family: Roboto, sans-serif;
+}
+.container{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;    
+}
+.main-container{
     display: flex;
     background-color: #222222;
-    justify-content:space-around;
-    
+    width: 100%;
+    justify-content: center;
 }
-.header-navegacion{
-    list-style: none;
-    color: white;
+.conteiner-logo{
+    display: flex;
+    align-items: center;
+}
+.container-menu {
     display: flex;
 }
+.container-menu nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container-menu nav ul li {
+    margin-right: 15px;
+    color: #f3f3f3;
+    font-size: 16px;
+  }
+  .main-container {
+    display: flex;
+  }
+
+  main{
+    display: flex;
+    
+  }
+  
+  .main-container {
+    display: flex;
+    background-color: #E5E5E5;
+    padding: 50px 30px;
+    margin-top: 8px;
+    justify-content: space-between;
+    
+  }
+  .main-delivery {
+    display: flex;
+    background-color: #FFFFFF;    
+  }
+
+  .main-imagen{
+    flex-basis: 100%;   
+  }
+  
+  
+  .main-parafo {
+    position: absolute;
+    margin: auto;
+    color: #FC200C;
+    font-size: 20px;
+    font-weight: 900;
+    flex-basis: 100%;
+
+  }
+  .texto-blanco {
+    color: white;
+    font-weight: 700;
+}
+.titulo-podio{
+    position: absolute;
+    margin: auto;
+    color: #FC200C;
+    font-size: 30px;
+    font-weight: bold;
+}
+.main-podio{
+    display: flex;
+    flex-basis: 100%;
+    justify-content:space-around;
+    background-color: #FFFFFF;
+    margin-left: 10px;
+
+}
+.top-5{
+    flex-basis: 100%;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+    margin: auto;
+    
+    
+}
+.img-ingredientes{
+    flex-basis: 100%;
+    margin: auto;
+    
+}
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222222;
+    color: #f3f3f3;
+  }
+
+  footer nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+  }
