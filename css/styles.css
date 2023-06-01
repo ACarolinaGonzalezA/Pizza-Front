@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header{
+    display: flex;
+    background-color: #222222;
+    justify-content:space-around;
+    
+}
+.header-navegacion{
+    list-style: none;
+    color: white;
+    display: flex;
+}
