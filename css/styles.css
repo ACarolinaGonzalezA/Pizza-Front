@@ -1,106 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
-.container{
+
+.header{
     background-color: #222222;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;    
-}
-
-.conteiner-logo{
-    display: flex;
+    width: 100%;
+    height: 90px; 
+    padding: 10px;
+    justify-content:space-between;
     align-items: center;
 }
-.container-menu {
+.header-h1{
     display: flex;
 }
-.container-menu nav ul {
+.header-colorlogo{
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
-.container-menu nav ul li {
-    margin-right: 15px;
+.pizza {
+    color: green;    
+  }
+  
+  .ampersand {
+    color: white;
+  }
+  
+  .front {
+    color: red;
+  }
+
+  .header-navegacion{
+    display: flex;
     color: #f3f3f3;
-    font-size: 16px;
+    font-size: 16px; 
+  }
+
+.header-navegacion ul {
+    display: flex;
+       
 }
-
-
-main{
-    display: flex;    
+.header ul li {
+    margin-right: 10px;   
+    list-style-type: none; 
 }
 
 .main-container {
     display: flex;
     background-color: #E5E5E5;
-    padding: 50px 30px;
-    margin-top: 8px;
+    padding: 40px 20px;
+    width: 100%; 
+    height: 500px;   
     justify-content: space-between;
-    width: 100%;    
 }
 
-.main-delivery {
-    display: flex;
-    background-color: #FFFFFF;    
-}
-
-.main-imagen{
-    flex-basis: 100%;   
-}  
-
-.main-parafo {
-    position: absolute;
-    margin: auto;
+.main-h2 {
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     color: #FC200C;
     font-size: 20px;
-    font-weight: 900;
     flex-basis: 100%;
+    text-align: center;
 }
 .texto-blanco {
     color: white;
-    font-weight: 700;
 }
-.titulo-podio{
-    position: absolute;
-    margin: auto;
-    color: #FC200C;
-    font-size: 30px;
-    font-weight: bold;
-}
+
 .main-podio{
+    background-color: #FFFFFF;
+    background-image: url('../img/PizzaFalling.jpg');
+    background-repeat: no-repeat;
+    background-position: 350px 150px;
+    background-size: 130px;
     display: flex;
     flex-basis: 100%;
-    justify-content:space-around;
-    background-color: #FFFFFF;
+    justify-content:space-evenly;    
     margin-left: 10px;
 }
+
+.titulo-podio{
+    position: absolute;
+    color: #FC200C;
+    font-size: 20px;
+}
+
 .top-5{
     flex-basis: 100%;
     font-size: 20px;
     padding-left: 30px;
-    font-weight: bold;
     margin: auto;    
 }
-.img-ingredientes{
-    flex-basis: 100%;
-    margin: auto;    
-}
+
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
     background-color: #222222;
-    color: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-footer nav ul {
-    list-style-type: none;
-    margin: auto;
-    padding: auto;
+.footer-navegacion ul {
+    display: flex;
+    color: #f3f3f3;
+    font-size: 16px; 
 }
+
+.footer ul li {
+    margin-right: 10px;   
+    list-style-type: none; 
+}
+
+.footer-logo{
+    display: flex;
+    padding-right: 20px;
+   
+    
+}
+
+
